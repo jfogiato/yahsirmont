@@ -29,8 +29,10 @@ Follow these steps to set up the project locally and start developing.
 
 1. *Clone the Repository*:
    
-` git clone https://github.com/jfogiato/yahsirmont.git
-cd yahsirmont-website `
+```bash
+git clone https://github.com/jfogiato/yahsirmont.git
+cd yahsirmont-website
+```
 
 2. *Open in Your Code Editor*.
 
