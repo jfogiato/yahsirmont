@@ -10,6 +10,7 @@ Table of Contents
   - [Setup](#setup)
   - [Development Workflow](#development-workflow)
   - [Contributing](#contributing)
+    - [Want to contribute? Here’s how:](#want-to-contribute-heres-how)
 
 ## About
 
@@ -48,18 +49,26 @@ Visit http://localhost:5500 (or the URL provided by your local server) to view t
 
 ## Contributing
 
-Want to contribute? Here’s how:
-1. Fork the repository.
-2. Create a new branch:
+### Want to contribute? Here’s how:
 
+1. *Fork the repository*.
+   
+2. *Create a new branch*:
+   
+```bash
 git checkout -b feature/your-feature-name
+```
 
-	3.	Commit your changes:
+3. *Commit your changes*:
 
+```bash
 git commit -m "Add your message here"
+```
 
-	4.	Push your branch:
+4. *Push your branch*:
 
+```bash
 git push origin feature/your-feature-name
+```
 
-	5.	Open a pull request.
+5. *Open a pull request*.
