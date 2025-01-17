@@ -8,11 +8,14 @@ const body = document.body;
 // Functions
 function changeMainImage() {
 
-    if (mainImage.src.includes("/Asssets/yahsir_funny_helmet.jpeg")) {
-        mainImage.src = "/Asssets/yahsir_tree.jpeg";
+    if (mainImage.src.includes("/Assets/yahsir_funny_helmet.jpeg")) {
+        mainImage.src = "/Assets/yahsir_tree.jpeg";
         mainImage.alt = "An image of Yahsir hanging from a tree while hiking."
+    } else if (mainImage.src.includes("/Assets/yahsir_tree.jpeg")) {
+        mainImage.src = "/Assets/yahsir_and_joe.jpeg";
+        mainImage.alt = "An image of Yahsir and Joe.";
     } else {
-        mainImage.src = "/Asssets/yahsir_funny_helmet.jpeg";
+        mainImage.src = "/Assets/yahsir_funny_helmet.jpeg";
         mainImage.alt = "An image of Yahsir making a funny face while wearing a bike helmet.";
     }
 
