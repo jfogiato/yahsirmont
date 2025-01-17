@@ -1,4 +1,4 @@
-console.log("Deployed from GH Pages");
+console.log("Here's a secret!");
 
 // Global Variables
 const mainImage = document.getElementById("main-image");
